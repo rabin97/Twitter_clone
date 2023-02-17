@@ -1,0 +1,21 @@
+.sidebar_tweet {
+  background-color: var(--twitter-color) !important;
+  border: none;
+  width: 100%;
+  font-weight: 900;
+  justify-content: center;
+  margin-top: 1rem;
+  border-radius: 20px;
+  border-style: dotted;
+}
+.sidebar{
+  display: flex;
+  flex: 0.3;
+  flex-direction: column;
+}
+.twitterIcon{
+  color: var(--twitter-color);
+  font-weight: 800;
+  margin-left: 1rem;
+  margin-top: 2rem;
+}

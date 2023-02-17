@@ -1,0 +1,17 @@
+.sidebaroptions{
+display: flex;
+align-items: center;
+}
+.sidebaroptions> .MuiSvgIcon-root{
+ padding: 1rem;
+}
+
+.sidebaroptions:hover{
+    background-color: rgb(171, 230, 210);
+    border-radius: 1rem;
+    color: var(--twitter-color);
+    transition: color 100ms ease-out;
+    /* font-size: large; */
+    transform: scale(1.1);
+  
+}
